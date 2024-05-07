@@ -3,6 +3,7 @@ html, body {
     padding: 0;
 	font-family: 'Rubik', sans-serif;
 	background-color: #eef0f4;
+	color: #432000;
 }
 
 .container {
@@ -40,6 +41,11 @@ button {
     font-family: 'Rubik', sans-serif;
 }
 
+button:hover {
+	background-color: hotpink;
+	cursor: pointer;
+}
+
 ul {
 	display: flex;
 	flex-wrap: wrap;
@@ -56,4 +62,9 @@ li {
 	font-size: 1.25rem;
 	padding: 1rem;
 	text-align: center;
+}
+
+li:hover {
+	background-color: lightpink;
+    cursor: pointer;
 }
