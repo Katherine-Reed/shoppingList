@@ -2,6 +2,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebas
 import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
+    apiKey: "1cc0ab93-5e93-4093-a4ae-b3b8b7e74846"
     databaseURL: "https://development-kgr-default-rtdb.firebaseio.com/"
 }
 
